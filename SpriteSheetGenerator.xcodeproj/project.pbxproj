@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5078A620A31A9900282784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078A520A31A9900282784 /* AppDelegate.swift */; };
+		CD5078AA20A31A9900282784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5078A920A31A9900282784 /* Assets.xcassets */; };
+		CD5078BE20A31D0E00282784 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078B720A31D0E00282784 /* SheetViewController.swift */; };
+		CD5078BF20A31D0E00282784 /* VideoDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078B820A31D0E00282784 /* VideoDataViewController.swift */; };
+		CD5078C020A31D0E00282784 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078B920A31D0E00282784 /* VideoData.swift */; };
+		CD5078C120A31D0E00282784 /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078BA20A31D0E00282784 /* FlippedView.swift */; };
+		CD5078C220A31D0E00282784 /* SpriteSheetProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078BB20A31D0E00282784 /* SpriteSheetProcess.swift */; };
+		CD5078C320A31D0E00282784 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078BC20A31D0E00282784 /* OutputViewController.swift */; };
+		CD5078C420A31D0E00282784 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078BD20A31D0E00282784 /* Config.swift */; };
+		CD5078C720A31D2000282784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5078C520A31D1F00282784 /* Main.storyboard */; };
+		CD5078C820A31D2000282784 /* VideoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5078C620A31D2000282784 /* VideoDataView.xib */; };
+		CD5078CA20A31D3300282784 /* SpriteSheetGenerator.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD5078C920A31D3200282784 /* SpriteSheetGenerator.sh */; };
+		CD5078CC20A3597D00282784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5078CB20A3597D00282784 /* ViewController.swift */; };
+		CDF23C6320A35CAA0049A86F /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF23C6220A35CAA0049A86F /* DropView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD5078A220A31A9900282784 /* SpriteSheetGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteSheetGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5078A520A31A9900282784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD5078A920A31A9900282784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5078AE20A31A9A00282784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5078AF20A31A9A00282784 /* SpriteSheetUI2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpriteSheetUI2.entitlements; sourceTree = "<group>"; };
+		CD5078B720A31D0E00282784 /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		CD5078B820A31D0E00282784 /* VideoDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDataViewController.swift; sourceTree = "<group>"; };
+		CD5078B920A31D0E00282784 /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		CD5078BA20A31D0E00282784 /* FlippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
+		CD5078BB20A31D0E00282784 /* SpriteSheetProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSheetProcess.swift; sourceTree = "<group>"; };
+		CD5078BC20A31D0E00282784 /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		CD5078BD20A31D0E00282784 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CD5078C520A31D1F00282784 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD5078C620A31D2000282784 /* VideoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoDataView.xib; sourceTree = "<group>"; };
+		CD5078C920A31D3200282784 /* SpriteSheetGenerator.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = SpriteSheetGenerator.sh; sourceTree = "<group>"; };
+		CD5078CB20A3597D00282784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDF23C6220A35CAA0049A86F /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD50789F20A31A9900282784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD50789920A31A9900282784 = {
+			isa = PBXGroup;
+			children = (
+				CD5078A420A31A9900282784 /* SpriteSheetUI2 */,
+				CD5078A320A31A9900282784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5078A320A31A9900282784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5078A220A31A9900282784 /* SpriteSheetGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5078A420A31A9900282784 /* SpriteSheetUI2 */ = {
+			isa = PBXGroup;
+			children = (
+				CD5078A520A31A9900282784 /* AppDelegate.swift */,
+				CD5078CB20A3597D00282784 /* ViewController.swift */,
+				CDF23C6220A35CAA0049A86F /* DropView.swift */,
+				CD5078BD20A31D0E00282784 /* Config.swift */,
+				CD5078BA20A31D0E00282784 /* FlippedView.swift */,
+				CD5078BC20A31D0E00282784 /* OutputViewController.swift */,
+				CD5078B720A31D0E00282784 /* SheetViewController.swift */,
+				CD5078BB20A31D0E00282784 /* SpriteSheetProcess.swift */,
+				CD5078B920A31D0E00282784 /* VideoData.swift */,
+				CD5078B820A31D0E00282784 /* VideoDataViewController.swift */,
+				CD5078C520A31D1F00282784 /* Main.storyboard */,
+				CD5078C620A31D2000282784 /* VideoDataView.xib */,
+				CD5078C920A31D3200282784 /* SpriteSheetGenerator.sh */,
+				CD5078A920A31A9900282784 /* Assets.xcassets */,
+				CD5078AE20A31A9A00282784 /* Info.plist */,
+				CD5078AF20A31A9A00282784 /* SpriteSheetUI2.entitlements */,
+			);
+			path = SpriteSheetUI2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5078A120A31A9900282784 /* SpriteSheetGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5078B220A31A9A00282784 /* Build configuration list for PBXNativeTarget "SpriteSheetGenerator" */;
+			buildPhases = (
+				CD50789E20A31A9900282784 /* Sources */,
+				CD50789F20A31A9900282784 /* Frameworks */,
+				CD5078A020A31A9900282784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteSheetGenerator;
+			productName = SpriteSheetUI2;
+			productReference = CD5078A220A31A9900282784 /* SpriteSheetGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD50789A20A31A9900282784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jose Espejo";
+				TargetAttributes = {
+					CD5078A120A31A9900282784 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CD50789D20A31A9900282784 /* Build configuration list for PBXProject "SpriteSheetGenerator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD50789920A31A9900282784;
+			productRefGroup = CD5078A320A31A9900282784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5078A120A31A9900282784 /* SpriteSheetGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5078A020A31A9900282784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5078AA20A31A9900282784 /* Assets.xcassets in Resources */,
+				CD5078C820A31D2000282784 /* VideoDataView.xib in Resources */,
+				CD5078C720A31D2000282784 /* Main.storyboard in Resources */,
+				CD5078CA20A31D3300282784 /* SpriteSheetGenerator.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD50789E20A31A9900282784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5078CC20A3597D00282784 /* ViewController.swift in Sources */,
+				CD5078C220A31D0E00282784 /* SpriteSheetProcess.swift in Sources */,
+				CD5078BF20A31D0E00282784 /* VideoDataViewController.swift in Sources */,
+				CD5078C420A31D0E00282784 /* Config.swift in Sources */,
+				CD5078BE20A31D0E00282784 /* SheetViewController.swift in Sources */,
+				CD5078C120A31D0E00282784 /* FlippedView.swift in Sources */,
+				CD5078C320A31D0E00282784 /* OutputViewController.swift in Sources */,
+				CD5078A620A31A9900282784 /* AppDelegate.swift in Sources */,
+				CD5078C020A31D0E00282784 /* VideoData.swift in Sources */,
+				CDF23C6320A35CAA0049A86F /* DropView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD5078B020A31A9A00282784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5078B120A31A9A00282784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CD5078B320A31A9A00282784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpriteSheetUI2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpriteSheetUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		CD5078B420A31A9A00282784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpriteSheetUI2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = test.SpriteSheetUI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD50789D20A31A9900282784 /* Build configuration list for PBXProject "SpriteSheetGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5078B020A31A9A00282784 /* Debug */,
+				CD5078B120A31A9A00282784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5078B220A31A9A00282784 /* Build configuration list for PBXNativeTarget "SpriteSheetGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5078B320A31A9A00282784 /* Debug */,
+				CD5078B420A31A9A00282784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD50789A20A31A9900282784 /* Project object */;
+}
